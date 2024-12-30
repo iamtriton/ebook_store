@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Optimo Collection</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><img src="images/Optimo_logo-removebg-preview.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="featured.html">Featured</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="categoryDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Categories
+                </button>
+                <div class="dropdown-menu" aria-labelledby="categoryDropdown">
+                    <a class="dropdown-item" href="#">Fiction</a>
+                    <a class="dropdown-item" href="#">Non-Fiction</a>
+                    <a class="dropdown-item" href="#">Science</a>
+                    <a class="dropdown-item" href="#">Biography</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/book_1.jpg" class="d-block w-100" alt="Book Cover 1">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Discover Amazing Books</h5>
+                    <p>Explore our collection of ebooks from various genres.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/book_2.jpg" class="d-block w-100" alt="Book Cover 2">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Latest Arrivals</h5>
+                    <p>Check out the newest additions to our store.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/book_3.jpg" class="d-block w-100" alt="Book Cover 3">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Best Sellers</h5>
+                    <p>See what books are trending and popular among readers.</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container mt-4">
+        <!-- Featured Section -->
+        <h2>Featured Books</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/alchemist.jpg" class="card-img-top" alt="The Alchemist">
+                    <div class="card-body">
+                        <h5 class="card-title">The Alchemist- Paulo Coelho</h5>
+                        <p class="card-text">A philosophical tale about a young shepherd's journey to find treasure and discover profound spiritual truths.</p>
+                        <p class="star-rating">★★★★☆</p>
+                        <a href="alchemist.html">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/mockingbird.jpg" class="card-img-top" alt="To Kill a Mockingbird">
+                    <div class="card-body">
+                        <h5 class="card-title">To Kill a Mockingbird- Harper Lee</h5>
+                        <p class="card-text">A gripping story of racial injustice and moral courage in the Deep South, as seen through the eyes of young Scout Finch.</p>
+                        <p class="star-rating">★★★★★</p>
+                        <a href="mockingbird.html">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/1984.jpg" class="card-img-top" alt="1984">
+                    <div class="card-body">
+                        <h5 class="card-title">1984- George Orwell</h5>
+                        <p class="card-text">A chilling vision of a totalitarian regime where surveillance and propaganda define reality, and individuality is crushed.</p>
+                        <p class="star-rating">★★★★☆</p>
+                        <a href="1984.html">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <!-- Latest Arrivals Section -->
+        <h2>Latest Arrivals</h2>
+        <div class="row">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/midnight.jpg" class="card-img-top" alt="The Midnight Library">
+                        <div class="card-body">
+                            <h5 class="card-title">The Midnight Library- Matt Haig</h5>
+                            <p class="card-text">Explore the infinite possibilities of life choices with Nora Seed in this enchanting novel.</p>
+                            <p class="star-rating">★★★★☆</p>
+                            <a href="midnight.html">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/vanishing.jpg" class="card-img-top" alt="The Vanishing Half">
+                        <div class="card-body">
+                            <h5 class="card-title">The Vanishing Half- Brit Bennett</h5>
+                            <p class="card-text">A captivating exploration of family and identity across decades and generations.</p>
+                            <p class="star-rating">★★★★★</p>
+                            <a href="vanishing.html">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/gatsby.jpg" class="card-img-top" alt="The Great Gatsby">
+                        <div class="card-body">
+                            <h5 class="card-title">The Great Gatsby- F. Scott Fitzgerald</h5>
+                            <p class="card-text">A poignant critique of the American Dream, narrated by the enigmatic Jay Gatsby's neighbor, Nick Carraway.</p>
+                            <p class="star-rating">★★★★★</p>
+                            <a href="#">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+
+        <!-- Discover Section -->
+        <h2>Discover</h2>
+        <div class="row">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/sapiens.jpg" class="card-img-top" alt="Sapiens">
+                        <div class="card-body">
+                            <h5 class="card-title">Sapiens- Yuval Noah Harari</h5>
+                            <p class="card-text">Explore the profound history of humanity and the forces that have shaped our species' evolution.</p>
+                            <p class="star-rating">★★★★★</p>
+                            <a href="#">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/circus.jpg" class="card-img-top" alt="The Night Circus">
+                        <div class="card-body">
+                            <h5 class="card-title">The Night Circus- Erin Morgenstern</h5>
+                            <p class="card-text">An enchanting fantasy filled with wonder, romance, and dark secrets in a magical circus.</p>
+                            <p class="star-rating">★★★★☆</p>
+                            <a href="#">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/educated.jpg" class="card-img-top" alt="Educated">
+                        <div class="card-body">
+                            <h5 class="card-title">Educated- Tara Westover</h5>
+                            <p class="card-text">A memoir of resilience and self-discovery, highlighting the transformative power of education.</p>
+                            <p class="star-rating">★★★★★</p>
+                            <a href="#">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+
+
+   
+      
+
+    <!-- Footer -->
+    <footer class="footer bg-light mt-4 p-3 text-center">
+
+         <!--Social Media Section-->
+    <div class="social-media-links">
+        <a href="https://www.facebook.com/YourPage" target="_blank" class="social-icon">
+            <i class="fa-brands fa-facebook fa-flip"></i>
+        </a>
+        <a href="https://x.com/YourProfile" target="_blank" class="social-icon">
+            <i class="fa-brands fa-twitter fa-fade"></i>
+        </a>
+        <a href="https://www.instagram.com/YourProfile" target="_blank" class="social-icon">
+            <i class="fa-brands fa-instagram fa-beat"></i>
+        </a>
+      </div>
+      
+        <p>&copy; 2024 Optimo Collection. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
